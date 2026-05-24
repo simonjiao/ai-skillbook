@@ -2,4 +2,6 @@
 
 Generated from note front matter.
 
-No cataloged entries yet.
+## Automations
+
+- [Daily Session And Artifact Audit](automations/daily-session-artifact-audit.md) - `tested`, updated `2026-05-24`
