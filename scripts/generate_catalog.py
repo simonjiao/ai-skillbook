@@ -54,6 +54,8 @@ def render() -> str:
     current = None
     for dirname, path, meta in iter_entries():
         if dirname != current:
+            if current is not None:
+                lines.append("")
             current = dirname
             lines.extend([f"## {dirname.title()}", ""])
         rel = path.relative_to(ROOT).as_posix()
